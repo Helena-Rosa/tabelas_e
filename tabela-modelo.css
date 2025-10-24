@@ -1,0 +1,29 @@
+/*Estilos por TAGs*/
+
+/* a vigula separa cada uma das TAGs, formatando-as*/
+
+
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 15px;
+    margin: 25px auto 0;
+
+}
+
+table{
+    width: 100%;
+}
+
+th{
+    background: #5001bf;
+    color: white;
+}
+/* mais especifico, sera o ID dentro do TR do TFOOT */
+tfoot tr td {
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    font-style: italic;
+    color: mediumpurple;
+
+}
